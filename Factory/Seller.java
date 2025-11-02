@@ -8,8 +8,8 @@ public class Seller{
         Telephone note8 = TelephoneFactory.getTelephone("note8", "3000mah", 4, 6);
         System.out.println(note8);
 
-        Telephone exception = TelephoneFactory.getTelephone("exception", "3000mah", 4, 6);
-        System.out.println(exception);
+        // Telephone exception = TelephoneFactory.getTelephone("exception", "3000mah", 4, 6);
+        // System.out.println(exception);
 
     }
 }
