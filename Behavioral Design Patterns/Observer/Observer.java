@@ -9,7 +9,6 @@ interface Subject{
     void registerObserver(Observer observer);
     void removeObserver(Observer observer);
     void notifyObservers();
-
 }
 
 class Stock implements Subject {
@@ -64,7 +63,7 @@ class Brokerage implements Observer{
     public Brokerage(String name) {
         this.name = name;
     }
-    
+
     @Override
     public void update(String ticker, double quote) {
         System.out.println(name + " received update for " + ticker + ": " + quote);
