@@ -1,7 +1,7 @@
-package Composite;
+
+
 import java.util.List;
 import java.util.ArrayList;
-
 abstract class UI {
     private String text;
     

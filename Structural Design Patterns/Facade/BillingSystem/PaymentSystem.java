@@ -1,3 +1,4 @@
+package BillingSystem;
 public class PaymentSystem{
     public String checkPaymentStatus(String invoiceNumber ){
         return "checkPaymentStatus";
