@@ -1,4 +1,4 @@
-public class App{
+cd public class App{
     public static void main(String[] args){
     	Sword sword = new Posion(new Fire(new BasicSword())); 
     	sword.hit();
